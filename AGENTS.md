@@ -23,7 +23,7 @@ five plugin families, package install/uninstall, and a live plugin watcher.
 Full-product capabilities such as indexing/retrieval, durable memory workflows,
 web search, scheduling workflows, integrations, and Telegram belong in the
 store; the lightweight Timekeeper event clock stays in the kernel. Python +
-SQLite. Solo-maintained (Henry). There is **no GUI** — a Flet GUI was removed;
+SQLite. Solo-maintained. There is **no GUI** — a Flet GUI was removed;
 do not reintroduce one.
 
 ## Setup commands

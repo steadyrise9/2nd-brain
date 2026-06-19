@@ -73,8 +73,6 @@ Install resolves each file's declared dependencies — other store files and pip
 
 The store is just a git branch, so adding a plugin is a pull request. Author and test your plugin as a sandbox plugin (see [Plugin System](#plugin-system) and the [Extension Authoring Guide](#extension-authoring-guide)), then open a pull request against the `store` branch that adds your `tool_*.py` / `task_*.py` / `service_*.py` / `command_*.py` / `frontend_*.py` (and any `helpers/`) under the matching family directory. Declare dependencies with the `dependencies_files` and `dependencies_pip` fields so the package manager can resolve them, and to group several files under one install, add a `bundles/<name>.json` manifest listing the store-relative files.
 
-You can also simply send me an email at henrydaum8609@gmail.com with what you want to make :-)
-
 ## Core Architecture
 
 Second Brain is built from a few durable pieces:
@@ -439,4 +437,4 @@ MIT
 
 ---
 
-An agent by Henry Daum
+An agent by steadyrise9

@@ -1,7 +1,7 @@
 # Second Brain — Architecture Notes
 
 Local-first AI kernel with SQLite persistence, a REPL frontend, package
-install/uninstall, and live plugin loading. Python / SQLite. Solo dev (Henry).
+install/uninstall, and live plugin loading. Python / SQLite. Solo dev.
 The Flet GUI was removed; do not reintroduce.
 
 ---
